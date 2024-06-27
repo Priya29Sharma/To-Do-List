@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  
+   
+}
+body{
+  background-image: url("./password4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.task-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+   min-height: 70px; 
+  margin-bottom: 30px;
+  margin-left: 18px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1); /* White shadow */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+ 
+
+  
+}
+.task-container:hover {
+  transform: scale(1.05); /* Zoom effect */
+}
+.task-name{
+  width: 60%;
+  word-wrap: break-word; 
+}
+.task-date{
+
+  
+}
+/* .btn{
+  color: #fff;
+} */
+.main-container{
+  
+   margin-top: 150px;
+  margin-left: 480px;  
+  width: 600px;
+  /* height: 600px; */
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1); /* White shadow */
+  
+  
+   
+}
+.heading{
+  margin-left: 10px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(145, 194, 235, 0.9); /* Blue shadow */
+
+}
+.form-details{
+
+   text-align: center;
+  margin-bottom: 40px;
+  
+  
+  
+
+}
+
+.Toastify__toast.Toastify__toast--success { 
+  color: black;
+}
+.Toastify__toast.Toastify__toast--error { 
+  color: black;
+}
+.ant-slider-track {
+  background-color: #007bff; /* Dark blue color */
+}
+.delete-button{
+  font-size: 24px; /* Set the font size */
+  color:white; /* Change the color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+ 
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2); /* White shadow */
+
+}
+.modal-button {
+  background-color: '#000080'; 
+  border-color: 'white';
+  transition: transform 0.01s; /* Add transition effect on transform property */
+}
+
+/* Scale up the button when hovered */
+.modal-button:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
+
+
+.drawerbtn{
+
+  position: fixed;
+  background-color: #000080;
+   border-color: white;
+  justify-content: center;
+  right: 20px;
+  bottom: 20px;
+
+}
+
+
+
+
