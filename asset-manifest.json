@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/To-Do-List/static/css/main.b2ef7359.css",
+    "main.js": "/To-Do-List/static/js/main.893517ac.js",
+    "static/media/password4.webp": "/To-Do-List/static/media/password4.e7483471f00a2b2467fe.webp",
+    "index.html": "/To-Do-List/index.html",
+    "main.b2ef7359.css.map": "/To-Do-List/static/css/main.b2ef7359.css.map",
+    "main.893517ac.js.map": "/To-Do-List/static/js/main.893517ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2ef7359.css",
+    "static/js/main.893517ac.js"
+  ]
+}
